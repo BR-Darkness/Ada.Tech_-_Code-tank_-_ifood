@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>To-Do List</title>
+</head>
+<body>
+    <header id="Menu">
+        <p id="Logo">To-Do List</p>
+        <!-- <nav id="MenuItens">
+            <ul>
+                <li><a href="#">A</a></li>
+                <li><a href="#">B</a></li>
+                <li><a href="#">C</a></li>
+            </ul>
+        </nav> -->
+    </header>
+    
+    <main>
+        <h1><span class="material-symbols-outlined">list</span> Lista de Tarefas:</h1>
+        <nav>
+            <div class="menu-atv">
+                <button onclick="adicionarAtividade()">Adicionar Atividade</button>
+                <button onclick="buscarAtividade()">Buscar Atividade</button>
+                <button onclick="exibirLista()">Exibir Lista Completa</button>
+            </div>
+            <ul id="List">
+                <!-- Lista de Tarefas -->
+            </ul>
+        </nav>
+    </main>
+
+    <footer>
+        <p>Atividade "To-Do List" do CodeTank Ada Ifood.</p>
+        <p><b>GitHub: <a href="#">BR-Darkness</a></b></p>
+    </footer>
+</body>
+</html>
